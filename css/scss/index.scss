@@ -1,2 +1,43 @@
 @import "font";
 @import "common";
+
+.inner{
+    width: 1425px;
+    margin: auto;
+}
+
+/* header */
+header{
+    .inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        padding: 8px 16px;
+        height: 54px;
+        background-color: #fff;
+        letter-spacing: 4px;
+        h1{
+            a{
+                display: flex;
+                justify-content: space-between;
+                padding: 8px 16px;
+                width: 186px;
+                height: 38px;
+                font-size: 1.5rem;
+                p{
+                    font-weight: 500;
+                }
+            }
+        }
+        ul{
+            display: flex;
+            li{
+                a{
+                    padding: 8px 16px;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
